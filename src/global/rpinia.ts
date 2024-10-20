@@ -9,8 +9,8 @@ import writer_blob from "capacitor-blob-writer"
 import { Capacitor } from "@capacitor/core"
 import axios from 'axios';
 import router from '@/router';
-//const socket_url = "wss://celibapps.statusmax.site/chat/?token="
-const socket_url = "ws://localhost:8080/chat/?token="
+const socket_url = "wss://irawo-bot.onrender.com/chat/?token="
+// const socket_url = "ws://localhost:8080/chat/?token="
 
 interface AudioComp {
     is_playing: boolean,
