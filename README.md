@@ -1,5 +1,8 @@
 # Nom du projet : Assistant virtuel pour Irawo
 
+[Accedez a l'assistant](https://irawo-bot.vercel.app/wel/1)
+
+
 ## Description
 
 Ce projet est un assistant virtuel basé sur l'IA, conçu spécifiquement pour Irawo. Il vise à guider les nouveaux clients et à les aider à comprendre comment Irawo peut répondre à leurs besoins. L'assistant IA interagit avec les utilisateurs en temps réel, et un tableau de bord dédié permet à l'équipe d'Irawo de suivre les interactions et d'analyser les conversations pour améliorer la conversion des clients.
