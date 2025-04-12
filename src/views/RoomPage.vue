@@ -44,7 +44,7 @@
                         <div style="display: flex; justify-content: center; margin-right: -1rem; ">
                             <div style="display: flex; align-items: center; overflow-x: scroll; padding: 1rem; ">
 
-                                <div v-for="img in room.get_medias" :key="img.id">
+                                <div v-for="img in room?.get_medias" :key="img.id">
 
                                     <div v-if="img.get_image" @click="click_id(img.id + ':img')"
                                         style="height: 13rem; width: 13rem; min-width: 13rem; border-radius: 10px; margin-right: .6rem; position: relative; background-position: center; background-size: cover; box-shadow: 0 10px 15px -3px #481c4b65, 0 4px 6px -2px #17a74929; "
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <div style="text-align: center; font-size: 1.1rem; padding: .4rem; font-weight: bold; ">
-                            {{ room.title.slice(0, 20) + '...' }}
+                            {{ room?.title.slice(0, 20) + '...' }}
                         </div>
                     </div>
                     <div class="great_messages">
