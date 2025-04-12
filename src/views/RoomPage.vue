@@ -30,17 +30,17 @@
 
                     </button>
                 </div>
-                <div v-if="!is_box" style="padding: .5rem .8rem ; ">
+                <div v-if="false" style="padding: .5rem .8rem ; ">
                     <button @click="get_product()" class="princ"
                         style="padding: 0.8rem; font-weight: bold !important; width: 100%; font-size: 1rem; border-radius: 15px; ">
-                        {{ room.get_goal.goal != 'livraison' ? 'S\'inscrire' : 'Commander' }}
+                        {{ room?.get_goal.goal != 'livraison' ? 'S\'inscrire' : 'Commander' }}
                     </button>
                 </div>
                 <div class="messages_cont" id="messages_container">
                     <button v-if="show_rep" class="respond_but princ">
                         <ion-icon :icon="arrowUndo" />
                     </button>
-                    <div style="padding: .4rem; margin-right: -5.8vw; ">
+                    <div v-if="false" style="padding: .4rem; margin-right: -5.8vw; ">
                         <div style="display: flex; justify-content: center; margin-right: -1rem; ">
                             <div style="display: flex; align-items: center; overflow-x: scroll; padding: 1rem; ">
 
@@ -807,7 +807,7 @@ ion-modal ion-toolbar {
 
 .me_mess {
     background: linear-gradient(to left, rgba(255, 255, 255, 0.322), transparent);
-    background-color: #f8be15;
+    background-color: #08966d;
     color: white;
 }
 
@@ -895,7 +895,7 @@ ion-modal ion-toolbar {
     text-align: center;
     font-size: 8.648000000000001vw;
     font-weight: bold;
-    color: #f8be15;
+    color: #08966d;
 }
 
 .sphot {
@@ -938,7 +938,7 @@ ion-modal ion-toolbar {
     min-width: 27.6vw;
     border-width: 2.7600000000000002vw;
     border-style: solid;
-    border-color: #f8be15;
+    border-color: #08966d;
     border-radius: 100%;
     box-sizing: content-box;
 }
@@ -970,7 +970,7 @@ ion-modal ion-toolbar {
 
 .princ {
     background: linear-gradient(to left, rgb(255, 166, 0, 0.521), transparent);
-    background-color: #f8be15;
+    background-color: #08966d;
     color: white;
 }
 
@@ -1083,7 +1083,7 @@ ion-modal ion-toolbar {
     min-height: 2.6rem;
     border-radius: 100%;
     color: white;
-    box-shadow: 0 10px 25px -3px #f8be15, 0 4px 6px -2px #f2824129;
+    box-shadow: 0 10px 25px -3px #08966d, 0 4px 6px -2px #f2824129;
 }
 
 .backbuti:active {
